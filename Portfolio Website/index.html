@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="description" content="Markand Brahmbhatt Personal Portfolio" />
+
+    <!-- Always include the line of code below -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" /> -->
+
+    <!-- FONT RUBIK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT SANSITA SWASHED (for Logo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- Import Ionicons library -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <!-- Attach JS file -->
+    <script defer src="js/scipt.js"></script>
+
+    <title>Markand Brahmbhatt</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="#">Markand Brahmbhatt</a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#home">Home</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li>
+            <a class="main-nav-link" href="#projects">Projects</a>
+          </li>
+          <li><a class="main-nav-link" href="#cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero" id="home">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Hi, I'm Markand</h1>
+
+            <p class="hero-description">
+              Third Year Computer Engineering Student at Toronto Metropolitan
+              Univerity (formerly Ryerson University)
+            </p>
+
+            <a href="#about" class="btn btn--full margin-right-sm"
+              >Learn more &darr;</a
+            >
+
+            <div class="delivered-meals">
+              <!-- <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div> -->
+              <p class="delivered-text">
+                <!-- <span>250,000+</span> meals delivered last year! -->
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/IMG_2018.png" type="image/png" />
+              <img
+                src="img/IMG_2018.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about" id="about">
+        <div class="container">
+          <span class="subheading">About</span>
+        </div>
+
+        <div class="container grid grid--2-cols">
+          <div class="about">
+            <h3 class="heading-tertiary">Get to Know Me!</h3>
+            <p class="about-description">
+              Hi, my name's Markand Brahmbhatt i'm 3rd-year Computer Engineering
+              student at Toronto Metropolitan University. I have achieved
+              success in various projects and volunteer experiences displaying
+              strong engineering analysis and report-writing skills as well as
+              excellent leadership, communication, and interpersonal skills. My
+              studies have given me a strong foundation in both hardware and
+              software design, and I am always eager to learn more and take on
+              new challenges. In my free time, I enjoy learning about new
+              developments in software and exploring the vibrant city of
+              Toronto.
+            </p>
+
+            <a href="#cta" class="btn btn--full">Start eating well</a>
+          </div>
+
+          <div class="skills">
+            <h3 class="heading-tertiary">Skills</h3>
+            <ul class="skill-list">
+              <div class="box-hov box">C</div>
+              <div class="box-hov box">Java</div>
+              <div class="box-hov box">Python</div>
+              <div class="box-hov box">HTML5</div>
+              <div class="box-hov box">CSS3</div>
+              <div class="box-hov box">VHDL</div>
+              <div class="box-hov box">UML</div>
+              <div class="box-hov box">GitHub</div>
+              <div class="box-hov box">MATLAB</div>
+              <div class="box-hov box">Microsoft Office Suite</div>
+            </ul>
+          </div>
+
+          <div class="awards">
+            <h3 class="heading-tertiary">Awards</h3>
+            <ul class="award-list">
+              <div class="box-hov box">Dean's List 2021-2022</div>
+              <div class="box-hov box">Dean's List 2022-2023</div>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects" id="projects">
+        <!-- STEP 01 -->
+        <div class="container">
+          <span class="subheading">My Projects</span>
+          <h2 class="heading-secondary">Academic and Personal Projects</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">General Purpose Processor Design</h3>
+            <p class="step-description">
+              Designed and built General Purpose Processor, GPP, using Altera
+              Quartus II and VHDL, for my Digital Systems course. The GPP
+              consisted of two storage units made with latches, a control unit
+              made using a finite state machine and 4x16 Decoder which feed
+              input to an ALU which then displays output on seven segment
+              display.All components were programmed using VHDL, final design
+              was then implemented on the FPGA board
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/app/project-general-purpose-processor.png"
+              class="step-img"
+              alt="Iphone app preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div>
+            <img
+              src="img/app/project-bharat-bhoj-website.png"
+              class="step-img-websites step-bharat-bhoj-border"
+              alt="Image of a Restaurant website "
+            />
+          </div>
+
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Bharat Bhoj</h3>
+            <p class="step-description">
+              Designed a static restaurant webpage, called Bharat Bhoj using
+              HTML5, CSS3 and JavaScript as part of personal project.
+              Excellently followed webdesign principles giving the website a
+              modern look and feel, whilst also appropriately addressing media
+              queries and making the design responsive.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Portfolio Website</h3>
+            <p class="step-description">
+              This responsive static personal portfolio website showcases my
+              skills and projects in a simple and modern design. The website was
+              designed and developed using HTML, CSS, and JavaScript, with media
+              queries handled to ensure optimal viewing on all devices.
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="img/app/project-portfolio-website.png"
+              class="step-img-websites"
+              alt="Iphone app meal approving plan screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Contact Me</h2>
+              <p class="cta-text">
+                I'm always open to new oppurtunities and connections! Interested
+                in learning more about me or my projects? Feel Free to reach out
+                to me by filling out this contact form or email me at
+                <strong>brahmbhatt.markand@gmail.com</strong>
+              </p>
+
+              <form class="cta-form" name="sign-up" data-netlify="true">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email Address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div class="message-box">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="10"
+                    placeholder="Enter message here..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo logo">Markand Brahmbhatt</a>
+
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://github.com/mbrahmbh"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/in/markand-brahmbhatt/"
+                target="_blank"
+              >
+                <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <!-- <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact me</p>
+          <address class="contacts">
+            <p>
+              <a class="footer-link" href="mailto:brahmbhatt.markand@gmail.com">
+                brahmbhatt.markand@gmail.com
+              </a>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">
+            Thank you for looking through my portfolio.
+          </p>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2023</span> by Markand
+            Brahmbhatt. All rights reserved
+          </p>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
